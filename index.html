@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Slider de Fotos</title>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slides">
+        <!--Botoes-->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <!--Botoes-->
+
+        <!--Imagens-->
+        <div class="slide first">
+          <img src="img/casa 1.jpg" alt="casa 1" />
+        </div>
+        <div class="slide">
+          <img src="img/casa 2.jpg" alt="casa 2" />
+        </div>
+        <div class="slide">
+          <img src="img/casa 3.jpg" alt="casa 3" />
+        </div>
+        <div class="slide">
+          <img src="img/casa 4.jpg" alt="casa 4" />
+        </div>
+        <!--Imagens-->
+
+        <!--Rolagem automatica-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--Rolagem automatica-->
+      </div>
+      <!--slides-->
+
+      <!--Rolagem manual-->
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--Rolagem manual-->
+    </div>
+    <!--slider-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
